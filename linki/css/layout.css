@@ -1,0 +1,21 @@
+/* Pawel W
+Layout dla priv.htm
+ */
+#lmenu, #rmenu {
+  position: fixed;
+  top: 0px;
+  min-width: 49%;
+}
+#lewy {
+  float: left;
+  width: 49%;
+}
+#prawy {
+  float: right;
+  width: 49%;
+}
+#stopka {
+  border-style: none;
+  clear: both;
+  padding-top: 10px;
+}

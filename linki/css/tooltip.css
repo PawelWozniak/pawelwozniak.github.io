@@ -1,0 +1,38 @@
+/* ----- tool tip specific styles ----- */
+#theToolTip{
+	position: absolute;
+	left: -300px;
+	width: 200px;
+	border: 2px solid AppWorkspace;
+	padding: 6px 0px 6px 10px;
+	background-color: #FFFFCC;
+	visibility: hidden;
+	z-index: 100;
+}
+
+#ToolTipPointer{
+	position:absolute;
+	left: -300px;
+	z-index: 101;
+	visibility: hidden;
+}
+
+#theToolTip {
+	font-size: 0.8em;
+	color: #333333;
+	line-height:1.4em;
+	margin-right:10px;
+	margin-top:0;
+}
+
+#ToolTipTextWrap {
+	font-weight:bold;
+	font-size: 1.2em;
+	color: #592C16;
+	margin-right:10px;
+}
+
+.ToolTipLink {
+	/*background-color: #0000AA;*/
+}
+
